@@ -1,0 +1,41 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.clearfix::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+header {
+	width: 100%;
+	background-color: #EC715F;
+}
+nav {
+	width: 1024px;
+	height: 70px;
+	margin: 0 auto;
+	text-align: center;
+}
+img {
+	display: inline-block;
+	float: left;
+	height: 70px
+
+}
+.nav-list {
+	float: right;
+	font-size: 16px;
+	color: #FAFAFA;
+}
+.nav-list-item {
+	list-style: none;
+	display: inline-block;
+	margin-right: 60px;
+	line-height: 70px;
+
+}
+.nav-list-item:last-child {
+	margin-right: 30px
